@@ -19,7 +19,7 @@ const changeQuote = async () =>{
     ind = Math.floor(Math.random()*quotes.length);}
     tempindex=ind;
     const quote = quotes[ind].text;
-    text.innerHTML=quote;
+    text.innerHTML="\""+quote+"\"";
 }
 
 changeQuote();
